@@ -1,0 +1,96 @@
+.allPage {
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+}
+
+body {
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+.bobby {
+    width: 50%;
+    margin-top: 12%;
+    margin-left: 25%;
+}
+
+.candidates {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choiceTitle {
+    color: #EA3788;
+    text-align: center;
+    font-size: 34px;
+}
+
+.choice {
+    color: #C6C9D3;;
+    text-align: center;
+    font-size: 18px;
+}
+
+h6 {
+    color: #C6C9D3;
+    margin: 0;
+    padding-top: 4px;
+    font-size: 17px;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+    padding-top: 5%;
+}
+
+.logo-text {
+    width: 60%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    width: 90%;
+    padding-left: 6%;
+    font-size: 20px;
+    color: #C6C9D3;  
+}
+
+
+.sweet {
+    color: #EA3788;
+}
+
+button {
+    background-color: #EA3788; /* Green background */
+    width: 425px;
+    height: 41px;
+    font-size: 22px;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: left;
+    padding-left: 5%;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #962558;
+}
+  

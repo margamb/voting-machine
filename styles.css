@@ -14,6 +14,25 @@ body {
     margin-left: 25%;
 }
 
+button {
+    background-color: #EA3788; /* Green background */
+    width: 310px;
+    height: 48px;
+    font-size: 22px;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: left;
+    padding-left: 2%;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #962558;
+}
+
 .candidates {
     width: 90%;
     margin: auto;
@@ -38,7 +57,7 @@ h6 {
     color: #C6C9D3;
     margin: 0;
     padding-top: 4px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .header {
@@ -48,6 +67,7 @@ h6 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -76,22 +96,5 @@ h6 {
     font-size: 16px;
 }
 
-button {
-    background-color: #EA3788; /* Green background */
-    width: 350px;
-    height: 41px;
-    font-size: 22px;
-    color: white; /* White text */
-    cursor: pointer; /* Pointer/hand icon */
-    margin-bottom: 7px;
-    text-align: left;
-    padding-left: 5%;
-    letter-spacing: 0.1em;
-    border-radius: 4px;
-    outline: none;
-}
 
-button:hover {
-    background-color: #962558;
-}
   

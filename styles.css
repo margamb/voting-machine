@@ -19,7 +19,6 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -39,11 +38,11 @@ h6 {
     color: #C6C9D3;
     margin: 0;
     padding-top: 4px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .header {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -52,7 +51,8 @@ h6 {
 }
 
 .logo {
-    width: 15%;
+    width: 65px;
+    height: auto;
     padding-top: 5%;
 }
 
@@ -65,7 +65,7 @@ h6 {
 
 .title {
     width: 90%;
-    padding-left: 6%;
+    text-align: center;
     font-size: 20px;
     color: #C6C9D3;  
 }
@@ -73,11 +73,12 @@ h6 {
 
 .sweet {
     color: #EA3788;
+    font-size: 16px;
 }
 
 button {
     background-color: #EA3788; /* Green background */
-    width: 425px;
+    width: 350px;
     height: 41px;
     font-size: 22px;
     color: white; /* White text */

@@ -52,7 +52,7 @@ transition: all 0.2s ease-in-out;
     position: relative;
 }
 
-button {
+.candidatesButton {
     background-color: #EA3788; /* Green background */
     width: 310px;
     height: 48px;
@@ -67,7 +67,7 @@ button {
     outline: none;
 }
 
-button:hover {
+.candidatesButton:hover {
     background-color: #962558;
 }
 
@@ -93,6 +93,58 @@ button:hover {
     color: #375D9C;
     text-align: center;
     font-size: 18px;
+}
+
+.choose {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.chooseOption {
+    background-color: white; /* Green background */
+    width: 100px;
+    height: 48px;
+    font-size: 22px;
+    color: #416BB3; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: center;
+    padding-left: 2%;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #416BB3;
+}
+
+.chooseOption:hover {
+    background-color: #C6C9D3 ;
+}
+
+.ChangeOptions {
+    position: absolute;
+    top: 415px;
+    left: 205px;
+    background-color: white; /* Green background */
+    width: 100px;
+    height: 48px;
+    font-size: 16px;
+    color: #416BB3; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin-bottom: 7px;
+    text-align: center;
+    padding-left: 2%;
+    letter-spacing: 0.1em;
+    border-radius: 4px;
+    outline: none;
+    border: 3px solid #416BB3;
+}
+
+.ChangeOptions:hover {
+    background-color: #C6C9D3 ;
 }
 
 .click{
@@ -147,6 +199,38 @@ h6 {
     padding-top: 5%;
 }
 
+.logoSad {
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 0px;
+    opacity: 0;
+    animation: 2s sad ease-in-out;
+}
+
+@keyframes sad{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;   
+    }
+}
+
+.logoSmile {
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
 .logo-text {
     width: 60%;
     padding-top: 5%;
@@ -180,10 +264,62 @@ h6 {
     color: #C6C9D3;  
 }
 
+.twoimg {
+    width: 300px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
 
 .sweet {
     color: #EA3788;
     font-size: 16px;
+}
+
+.second {
+    color: #375D9C;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sure {
+    color: #375D9C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: -15px;
+}
+
+.textTochange{
+    color: #375D9C;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: -15px;
+    animation: 2s changeText ease-in-out;
+    
+    
+}
+
+@keyframes changeText{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.wrong {
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
 }
 
 

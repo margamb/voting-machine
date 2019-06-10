@@ -1,5 +1,6 @@
 .allPage {
     width: 100%;
+    display: block;
     margin: auto;
     max-width: 500px;
 }
@@ -179,11 +180,11 @@ h6 {
     color: #C6C9D3;
     margin: 0;
     padding-top: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .header {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -194,14 +195,13 @@ h6 {
 
 .home {
     width: 7%;
-    padding-top: 60%;
     display: block;
     margin: auto;
     cursor: pointer;
 }
 
 .logo {
-    width: 65px;
+    width: 45px;
     height: auto;
     padding-top: 5%;
 }
@@ -239,13 +239,10 @@ h6 {
 }
 
 .logoSmileOthers {
-    width: 100%;
-    padding-top: 5%;
+    width: 60%;
+    padding-top: 2%;
     display: block;
     margin: auto;
-    position: absolute;
-    top: 0px;
-    left: 0px;
 }
 
 .logo-text {
@@ -291,7 +288,7 @@ h6 {
 
 .sweet {
     color: #EA3788;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .second {
@@ -312,7 +309,7 @@ h6 {
 .textTochange{
     color: #375D9C;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
     letter-spacing: 0.04em;
     margin-bottom: -15px;

@@ -125,18 +125,17 @@ transition: all 0.2s ease-in-out;
 }
 
 .ChangeOptions {
-    position: absolute;
-    top: 415px;
-    left: 205px;
+    display: block;
+    margin: auto;
+    top: 291px;
+    position: relative;
     background-color: white; /* Green background */
     width: 100px;
     height: 48px;
     font-size: 16px;
     color: #416BB3; /* White text */
     cursor: pointer; /* Pointer/hand icon */
-    margin-bottom: 7px;
     text-align: center;
-    padding-left: 2%;
     letter-spacing: 0.1em;
     border-radius: 4px;
     outline: none;
@@ -193,6 +192,14 @@ h6 {
     flex-wrap: wrap;
 }
 
+.home {
+    width: 7%;
+    padding-top: 60%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
 .logo {
     width: 65px;
     height: auto;
@@ -222,6 +229,16 @@ h6 {
 }
 
 .logoSmile {
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logoSmileOthers {
     width: 100%;
     padding-top: 5%;
     display: block;

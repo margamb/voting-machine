@@ -57,13 +57,13 @@ transition: all 0.2s ease-in-out;
     background-color: #EA3788; /* Green background */
     width: 310px;
     height: 48px;
-    font-size: 22px;
+    font-size: 20px;
     color: white; /* White text */
     cursor: pointer; /* Pointer/hand icon */
     margin-bottom: 7px;
     text-align: left;
     padding-left: 2%;
-    letter-spacing: 0.1em;
+    /*letter-spacing: 0.1em;*/
     border-radius: 4px;
     outline: none;
 }
@@ -154,8 +154,7 @@ transition: all 0.2s ease-in-out;
     position: absolute;
     left: 68px;
     top: 150px;
-    animation: 2s mov ease-in-out;
-    
+    animation: 2s mov ease-in-out;   
     /*transition: 0.5s;
     transition: opacity 0.5s ease-in-out;
     animation-delay: 2s mov;*/   
